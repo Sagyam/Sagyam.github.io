@@ -18,7 +18,7 @@ jobs:
       id: sitemap
       uses: cicirello/generate-sitemap@v1.6.1
       with:
-        base-url-path: https://THE.URL.TO.YOUR.PAGE/
+        base-url-path: https://sagyamthapa.me
     - name: Output stats
       run: |
         echo "sitemap-path = ${{ steps.sitemap.outputs.sitemap-path }}"
